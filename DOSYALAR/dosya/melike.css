@@ -1,0 +1,218 @@
+html,body {
+  height: 100%;
+ 	background-color:#FAFAFA;
+}
+.genelCervece{	
+	border:1px solid #362c2c;
+	border-radius:5px;
+	 background: -webkit-linear-gradient(left, purple 0%, #252323 100%);
+    background: linear-gradient(to right, purple 0%, #252323 100%);
+}
+
+.ovalb {
+	border-radius:0px 10px 10px 0px;
+	overflow:hidden;
+	text-align:center;
+	background-color:#FFF;
+	color:#47a323;	
+}
+
+.ovald {	
+	border-radius:0px 10px 10px 0px;
+	overflow:hidden;
+	text-align:center;
+	background-color:#FFF;
+	color:#f22340;	
+}
+
+.ovalr {	
+	border-radius:0px 10px 10px 0px;
+	overflow:hidden;
+	text-align:center;
+	background-color:#FFF;
+	color:#deab14;	
+}
+
+#lin:link, #lin:visited {
+	text-decoration:none;
+	color:#FFF;
+}
+
+#lin:hover {
+text-decoration:none;	
+color:#FFF;
+}
+
+.sipsayi {	
+	border-radius:5px;
+	color:#000;
+	font-size:20px;	
+	background-color:#FAFAFA;
+	margin-right:15px;
+}
+
+#anadiv {
+	min-height:100px;
+}
+
+.masaad {
+	font-size:24px;
+	text-align:center;
+	color:#fff;	
+}
+/* sağ taraf kodları */
+
+.basliklar {
+	color:purple;	
+	text-align:center;
+	border-bottom:1px solid #383737;
+}
+
+.anasayfaTablo {
+    border-spacing: 0;
+	border:none;
+	
+}
+
+.anasayfaTablo tbody {
+    min-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+	
+}
+.siparisTablo{
+	height: 100px;
+}
+
+#bekleyenler {
+	max-height:160px;		
+	
+}
+
+#rezervelistesi {
+	max-height:160px;	
+}
+
+#rezerveformalan {
+position:absolute; bottom:200px; right:0; width:250px; max-height:600px; overflow-y:auto; overflow-x:hidden; margin-right:5px;
+	border-radius:5px 0px 0px 5px;
+	background: -webkit-linear-gradient(left, #cfcfcf 0%, #f5f5f5 100%);
+    background: linear-gradient(to right, #f5f5f5 0%, #cfcfcf 100%);
+}
+
+.istatistiksagcizgi {
+	
+	border-right:1px solid #383737;
+	
+}
+
+/*  İSLEMLER PHP KODLARI*/
+
+
+#a1 {
+min-height:80px;	
+}
+#a2{
+margin-top:20px; margin-left:15px;	
+background-color:#43796c;
+color:#fff;
+
+}
+#a3 {
+min-height:80px; font-size:40px;	
+color:purple;
+
+}
+
+#sonuc {
+
+ min-height:650px;
+}
+
+table {
+
+    border-spacing: 0;
+}
+
+tbody, thead tr { display: block; }
+
+tbody {
+    height: 280px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+tbody td, thead th {
+    width: 170px;
+}
+
+thead th:last-child {
+    width: 140px; /* 140px + 16px scrollbar width */
+}
+
+/* MASA DETAY KODLARI */
+
+.masadetaysagcizgi {
+
+	border-right:1px solid #383737;
+	
+}
+.anasayfabuton {
+color:purple;	
+margin-top:20px; margin-left:15px;		
+border:1px solid purple;
+}
+
+.anasayfabuton:hover {
+color:purple;	
+
+}
+
+.hesapAlbuton {
+color:purple;	
+font-weight:bold; height:40px;
+border:1px solid purple;
+}
+
+.hesapAlbuton:hover {
+color:purple;	
+}
+
+.hesapAlbuton2 {
+color:purple;	
+font-weight:bold; height:40px;
+border:1px solid purple;
+background-color:transparent;
+}
+
+.hesapAlbuton2:hover {
+color:purple;	
+
+}
+
+.islembutonlar {
+	color:white;	
+font-weight:bold; height:40px;
+border:1px solid purple;
+background-color:purple;
+height:40px;
+}
+
+.adetbuton {
+background-color:purple;  
+color:white;	
+}
+.eklebuton {
+font-size:50px; 
+padding-top:0px; 
+height:80px; min-width:100px;  
+color:white; 
+background-color:purple;
+}
+
+.kategoributon {
+background-color:purple; 
+height:40px; 
+min-width:100px; 
+color:white;
+}
